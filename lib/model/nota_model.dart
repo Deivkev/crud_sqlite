@@ -19,7 +19,7 @@ class Nota {
       'fecha': fecha,
     };
     if (id != null) {
-      map['id'] = id as String;
+      map['id'] =  id.toString();
     }
     return map;
   }
